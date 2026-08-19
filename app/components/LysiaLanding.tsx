@@ -283,7 +283,8 @@ export function LysiaLanding() {
 
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="LYSIA, volver al inicio" onClick={() => handleNav("inicio")}>
-          <Image src="/brand/lysia-logo.png" width={900} height={820} alt="LYSIA" priority unoptimized />
+          <Image src="/brand/lysia-mark.png" width={540} height={540} alt="" priority unoptimized />
+          <span>LYSIA</span>
         </a>
         <button
           className="menu-button"
@@ -550,7 +551,7 @@ export function LysiaLanding() {
       </section>
 
       <section className="final-cta">
-        <Image src="/brand/lysia-mark.png" width={540} height={540} alt="" unoptimized />
+        <Image className="brand-mark-white" src="/brand/lysia-mark.png" width={540} height={540} alt="" unoptimized />
         <p className="eyebrow eyebrow-light"><span /> Lisis del conflicto</p>
         <h2>Disolver el conflicto.<br />Proteger el prestigio.</h2>
         <p>La mejor oportunidad para ordenar tu defensa es antes de necesitarla con urgencia.</p>
@@ -560,7 +561,13 @@ export function LysiaLanding() {
       </section>
 
       <footer>
-        <div className="footer-brand"><strong>LYSIA</strong><span>Molecular Precision · Biological Defense</span></div>
+        <div className="footer-brand">
+          <div className="brand brand-inverse" aria-label="LYSIA">
+            <Image src="/brand/lysia-mark.png" width={540} height={540} alt="" unoptimized />
+            <strong>LYSIA</strong>
+          </div>
+          <span>Molecular Precision · Biological Defense</span>
+        </div>
         <p>Legal as a Service para médicos especialistas.</p>
         <div className="footer-meta"><span>© 2026 LYSIA</span><a href="#evaluacion">Tratamiento de datos</a><a href="#preguntas">Alcance del servicio</a><span>v{VERSION}</span></div>
       </footer>
