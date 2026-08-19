@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "offer_id": "lysia_membership",
+  "primary_conversion": "assessment_form_submit",
+  "featured_plan": "Professional",
+  "country": "Colombia",
+  "whatsapp_enabled": false,
+  "public_activity_enabled": false,
+  "pricing_enabled": false,
+  "advertising_analytics_enabled": false,
+  "variant_id": "control_v000"
+}
