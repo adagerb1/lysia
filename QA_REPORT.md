@@ -12,6 +12,8 @@
 ## Validación ejecutada
 
 - `npm run lint`: aprobado sin errores ni advertencias.
+- `npm run build`: aprobado; se generaron la página y las rutas `/api/leads` y `/api/events`.
+- Artefacto de Sites: Worker ESM con `default.fetch` y manifiesto de hosting validados.
 - Render de escritorio: aprobado en la vista previa de Sites.
 - Jerarquía semántica: un solo H1 y secciones H2/H3 consistentes.
 - CTA principal: desplaza correctamente a la evaluación estratégica.
